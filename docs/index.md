@@ -10,3 +10,6 @@ Template uses smarty syntax. [Smarty Documentation](https://www.smarty.net/docs/
 - [Variables](variables.md)
   - [Global variables](global_variables.md)
   - [Module variables](module_variables.md)
+- [Modules](modules.md)
+  - [Blog articles](blog_articles.md)
+  - [Photo albums](photo_albums.md)
