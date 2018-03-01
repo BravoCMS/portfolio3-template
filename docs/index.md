@@ -13,3 +13,4 @@ Template uses smarty syntax. [Smarty Documentation](https://www.smarty.net/docs/
 - [Modules](modules.md)
   - [Blog articles](blog_articles.md)
   - [Photo albums](photo_albums.md)
+  - [Photo album](photo_album.md)
