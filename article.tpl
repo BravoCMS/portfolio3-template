@@ -1,0 +1,1 @@
+<{extends 'layout/layout.tpl'}><{block name="template-name"}>    /article.tpl<{/block}><{block name=title}>    <{$article.title|htmlspecialchars}><{/block}><{block name="module"}>    <h1>        <{$article.name|htmlspecialchars}>    </h1>    <{$article.text}><{/block}>
