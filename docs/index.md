@@ -15,3 +15,5 @@ Template uses smarty syntax. [Smarty Documentation](https://www.smarty.net/docs/
   - [Blog article](article.md)
   - [Photo albums(List)](photo_albums.md)
   - [Photo album](photo_album.md)
+- [Template tags](tags/index.md)
+  - [Discussion, Reviews, Comments](tags/discussion.md)
