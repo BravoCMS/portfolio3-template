@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- portfolio3-template -->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -13,7 +14,7 @@
         <{block name=head}>
         <{/block}>
     </head>
-    <body>
+    <body class="k_mob_show_norm <{block name=bodyClass}><{/block}>">
         <{block name=body}>
         <{/block}>
     </body>
