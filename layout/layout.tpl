@@ -85,34 +85,6 @@
     </nav> 
     
     <div id="container">
-        <div class="alert alert-dark" role="alert" style="position:fixed; top:0; left:0">
-            <{t "Template:" escape}>
-            <strong>
-                <{block name="template-name"}>
-                    /layout.tpl
-                <{/block}>
-
-                <{if $__tf}>
-                    <a href="?__tf=">
-                        <b><{$__tf}></b>
-                        - Вернуться к стандартному шаблону
-                    </a>
-                <{/if}>
-            </strong>
-
-            <{if $smarty.get.template_debug === '1'}>
-                <a href="?" class="btn btn-sm btn-info float-right">
-                    <{t "close_debug" escape}>
-                </a>
-
-                <{debug}>
-            <{else}>
-                <a href="?template_debug=1" class="btn btn-sm btn-info float-right">
-                    <{t "open_debug" escape}>
-                </a>
-            <{/if}>
-        </div>
-        
         <header class="top">
             <div class="site_title_block">
                 <a class="logo" href="<{$site.home_url}>">
